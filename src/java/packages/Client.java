@@ -11,4 +11,7 @@ public class Client {
 			this.currentAccountBalance -= value;
 		}
 	}
+	public double getLimit() {
+		return 1000.00;
+	}
 }
