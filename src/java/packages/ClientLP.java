@@ -1,5 +1,6 @@
 package java.packages;
 
-public class ClientLP {
-
+public class ClientLP extends Client {
+	
+	
 }
