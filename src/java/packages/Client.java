@@ -6,4 +6,9 @@ public class Client {
 	public String checkingAccount;
 	public double currentAccountBalance;
 
+	public void withdrawCheckingAccount(double value) {
+		if(this.currentAccountBalance >= value) {
+			this.currentAccountBalance -= value;
+		}
+	}
 }
