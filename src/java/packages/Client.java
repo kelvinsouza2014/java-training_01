@@ -2,9 +2,8 @@ package java.packages;
 
 public class Client {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	public int agence;
+	public String checkingAccount;
+	public double currentAccountBalance;
 
 }
